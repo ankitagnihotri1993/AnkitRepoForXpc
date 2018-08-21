@@ -25,7 +25,10 @@
           "model": {
             "available": "Available",
             "pending": "Pending",
-            "sold": "Sold"
+            "sold": "Sold",
+            "new arrivarl":"new arrival",
+            "latest breeds":"latest breeds",
+            "upcoming":"upcoming"
           },
           "prompt": "Select Pet Status"
         }
@@ -46,7 +49,10 @@
           "model": {
             "available": "Available",
             "pending": "Pending",
-            "sold": "Sold"
+            "sold": "Sold",
+            "new arrivarl":"new arrival",
+            "latest breeds":"latest breeds",
+            "upcoming":"upcoming"
           },
           "prompt": "Select Pet Status"
         }
@@ -89,10 +95,10 @@
         "out": "./lib/schemas/getPetsByStatus.out.json"
       }
     },
-    "getPetsByStatusWithActivaro": {
-      "main": "./lib/triggers/getPetsByStatusWithActivaro.js",
+    "getPetsByStatusWithActivator": {
+      "main": "./lib/triggers/getPetsByStatusWithActivator.js",
       "type": "polling",
-      "title": "Get Pets By Status With Activaro",
+      "title": "Get Pets By Status With Activator",
       "fields": {
         "status": {
           "label": "Pet Status",
@@ -101,7 +107,10 @@
           "model": {
             "available": "Available",
             "pending": "Pending",
-            "sold": "Sold"
+            "sold": "Sold",
+            "new arrivarl":"new arrival",
+            "latest breeds":"latest breeds",
+            "upcoming":"upcoming"
           },
           "prompt": "Select Pet Status"
         }
