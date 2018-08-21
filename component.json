@@ -90,7 +90,7 @@
       }
     },
     "getPetsByStatusWithActivaro": {
-      "main": "./lib/triggers/getPetsByStatusWithPromises.js",
+      "main": "./lib/triggers/getPetsByStatusWithActivaro.js",
       "type": "polling",
       "title": "Get Pets By Status With Promises",
       "fields": {
