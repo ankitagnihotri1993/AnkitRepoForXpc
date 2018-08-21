@@ -71,6 +71,23 @@
       "metadata": {
         "out": "./lib/schemas/getPetsByStatus.out.json"
       }
+    },
+    "getPetsByStatusWithStaticSelectModel": {
+      "main": "./lib/triggers/getPetsByStatusWithStaticSelectModel.js",
+      "type": "polling",
+      "title": "Get Pets By Status With Static Select Model",
+      "fields": {
+        "status": {
+          "label": "Pet Status",
+          "required": true,
+          "viewClass": "SelectView",
+          "model": "getStatusModel",
+          "prompt": "Select Pet Status"
+        }
+      },
+      "metadata": {
+        "out": "./lib/schemas/getPetsByStatus.out.json"
+      }
     }
   },
   "actions": {
