@@ -92,7 +92,7 @@
     "getPetsByStatusWithActivaro": {
       "main": "./lib/triggers/getPetsByStatusWithActivaro.js",
       "type": "polling",
-      "title": "Get Pets By Status With Promises",
+      "title": "Get Pets By Status With Activaro",
       "fields": {
         "status": {
           "label": "Pet Status",
