@@ -4,12 +4,12 @@
     "name": {
       "type": "string",
       "required": true,
-      "title": "Name"
+      "title": "labrador"
     },
     "status": {
       "type": "string",
       "required": true,
-      "title": "Status"
+      "title": "available"
     }
   }
 }
